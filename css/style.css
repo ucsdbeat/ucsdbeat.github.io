@@ -549,7 +549,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .main-nav .navbar-brand {
-  padding: 35px 40px 35px 50px;
+  padding: 30px 35px 30px 40px;
   border-right: 1px solid #e5e5e5;
 }
 
@@ -784,15 +784,15 @@ select.form-control:not([size]):not([multiple]) {
 
 .footer-main .block ul.social-links-footer li a {
   display: block;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   text-align: center;
   background: #fff;
 }
 
 .footer-main .block ul.social-links-footer li a i {
-  line-height: 50px;
+  line-height: 40px;
 }
 
 .footer-main .block ul.social-links-footer li a:hover {

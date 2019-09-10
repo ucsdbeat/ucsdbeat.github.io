@@ -29,7 +29,7 @@
 </head>
 
 <body class="body-wrapper">
-
+<div id="app">
 
 <!--========================================
 =            Navigation Section            =
@@ -114,11 +114,11 @@
 					<h2>About The<span class="alternate"> Beat</span></h2>
 					<div class="description-one">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco.
+							The Beat is a co-ed acapella group of undergraduate students from UC San Diego coming together to create their own personal style of acapella!
 						</p>
 					</div>
 					<div class="description-two">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt ut labore et dolore magna aliq enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+						<p>{{ about_subtext }}</p>
 					</div>
 					<ul class="list-inline">
 
@@ -144,7 +144,7 @@
 			<div class="col-12">
 				<div class="section-title">
 					<h3>Past <span class="alternate">Performances</span></h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore dolore</p>
+					<p>See what we've been up to!</p>
 				</div>
 			</div>
 		</div>
@@ -264,7 +264,7 @@
 			<div class="col-12">
 				<div class="section-title">
 					<h3>Our <span class="alternate">Sponsors</span></h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore dolore</p>
+					<p>From our family to yours, thank you!</p>
 				</div>
 			</div>
 		</div>
@@ -355,9 +355,6 @@
       <div class="row">
         <div class="col-md-12">
           <div class="block text-center">
-            <div class="footer-logo">
-              <img src="images/footer-logo.png" alt="logo" class="img-fluid">
-            </div>
             <ul class="social-links-footer list-inline">
               <li class="list-inline-item">
                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -396,12 +393,14 @@
     </div>
   </div>
 </footer>
-
+</div>
 
 
   <!-- JAVASCRIPTS -->
   <!-- jQuey -->
   <script src="plugins/jquery/jquery.js"></script>
+  <!-- Vue -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <!-- Popper js -->
   <script src="plugins/popper/popper.min.js"></script>
   <!-- Bootstrap 4 -->
@@ -420,7 +419,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
   <script type="text/javascript" src="plugins/google-map/gmap.js"></script>
   <!-- Custom Script -->
-  <script src="js/custom.js"></script>
+  <script src="js/vue/home.js"></script>
 </body>
 
 </html>
