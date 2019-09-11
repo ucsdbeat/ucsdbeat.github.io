@@ -140,56 +140,63 @@ Their unmistakable friendship shines through in each performance, making for an 
 ===============================-->
 
 <section class="section speakers bg-speaker overlay-lighter">
-	<div class="container">
+	<div class="container" id="app">
 		<div class="row">
 			<div class="col-12">
 				<!-- Section Title -->
 				<div class="section-title white">
-					<h3>Who's <span class="alternate">Who?</span></h3>
+					<h3>Meet <span class="alternate">The Beat</span></h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusm tempor incididunt ut labore</p>
 				</div>
 			</div>
 		</div>
 		<div class="row">
+			<person v-for="member in members" 
+				v-bind:first="member.firstName"
+				v-bind:last="member.lastName"
+				v-bind:part="member.partPos"
+				v-bind:picture="member.image"
+				v-bind:link="member.link"
+				v-bind:socla1="member.socials[0].class"
+				v-bind:soli1="member.socials[0].link"
+				v-bind:socla2="member.socials[1].class"
+				v-bind:soli2="member.socials[1].link"></person>
+
 			<div class="col-lg-3 col-md-4 col-sm-6">
 				<!-- Speaker 1 -->
 				<div class="speaker-item">
 					<div class="image">
-						<img src="images/speakers/speaker-one.jpg" alt="speaker" class="img-fluid">
+						<img v-bind:src="members[0].image" alt="speaker" class="img-fluid">
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+								<li class="list-inline-item"><a v-bind:href="members[0].socials[0].link"><i v-bind:class="members[0].socials[0].class"></i></a></li>
+								<li class="list-inline-item"><a v-bind:href="members[0].socials[1].link"><i v-bind:class="members[0].socials[1].class"></i></a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="content text-center">
-						<h5><a href="single-speaker.html">Johnathan Franco</a></h5>
-						<p>Project Manager</p>
+						<h5><a v-bind:href="members[0].link"> {{ members[0].firstName }} <br> {{ members[0].lastName }} </a></h5>
+						<p>{{ members[0].partPos }}</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-6">
-				<!-- Speaker 2 -->
+				<!-- Speaker 1 -->
 				<div class="speaker-item">
 					<div class="image">
-						<img src="images/speakers/speaker-two.jpg" alt="speaker" class="img-fluid">
+						<img v-bind:src="members[1].image" alt="speaker" class="img-fluid">
 						<div class="primary-overlay"></div>
 						<div class="socials">
 							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+								<li class="list-inline-item"><a v-bind:href="members[1].socials[0].link"><i v-bind:class="members[1].socials[0].class"></i></a></li>
+								<li class="list-inline-item"><a v-bind:href="members[1].socials[1].link"><i v-bind:class="members[1].socials[1].class"></i></a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="content text-center">
-						<h5><a href="single-speaker.html">Johnathan Franco</a></h5>
-						<p>Project Manager</p>
+						<h5><a v-bind:href="members[1].link"> {{ members[1].firstName }} <br> {{ members[1].lastName }} </a></h5>
+						<p>{{ members[1].partPos }}</p>
 					</div>
 				</div>
 			</div>
@@ -382,6 +389,10 @@ Their unmistakable friendship shines through in each performance, making for an 
   <!-- JAVASCRIPTS -->
   <!-- jQuey -->
   <script src="plugins/jquery/jquery.js"></script>
+  <!-- Vue -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- People Component -->
+  <script src="js/vue/components/Person.js"></script>
   <!-- Popper js -->
   <script src="plugins/popper/popper.min.js"></script>
   <!-- Bootstrap 4 -->
@@ -396,11 +407,9 @@ Their unmistakable friendship shines through in each performance, making for an 
   <script src="plugins/slick/slick.min.js"></script>  
   <!-- SyoTimer -->
   <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
-  <!-- Google Mapl -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
-  <script type="text/javascript" src="plugins/google-map/gmap.js"></script>
-  <!-- Custom Script -->
-  <script src="js/custom.js"></script>
+  <!-- Members Data -->
+  <script src="js/vue/members.js"></script>
+
 </body>
 
 </html>

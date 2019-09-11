@@ -2807,6 +2807,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .news .blog-post .post-content .date h4 {
   color: #fff;
+  font-size: 100%;
 }
 
 .news .blog-post .post-content .date h4 span {
@@ -2829,6 +2830,12 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 1.25rem;
   font-weight: 400;
   color: #222222;
+}
+
+.news .blog-post .post-content .post-title h2 a span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666666;
 }
 
 .news .blog-post .post-content .post-title h2 a:hover {
