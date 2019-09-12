@@ -17,12 +17,37 @@ const Person = Vue.component('person', {
             </div>
         </div>
         <div class="content text-center">
-            <h5><a v-bind:href="link"> {{ first }} <br> {{ last }} </a></h5>
+            <h5><a href="#" v-on:click="openModal(first)"> {{ first }} <br> {{ last }} </a></h5>
+            <div v-bind:id="first + 'modal'" v-if="awesome" v-on:click="closeModal()">
+                <div class="modal-textbox">
+                    <h1>{{first}} {{last}}</h1>
+                    <p>This is who I am</p>
+                    <p>I am an amazing singer in theBeat</p>
+                </div>
+            </div>
             <p>{{ part }}</p>
         </div>
     </div>
  </div>
-    `
+    `,
+    data: function(){
+        return {
+            awesome: false
+        }
+    },
+    methods: {
+        openModal: function(info) {
+            this.awesome = true;
+            console.log("Infor", info);
+            console.log("awesome", this.awesome)
+            console.log()
+        },
+
+        closeModal: function(){
+            console.log("close")
+            this.awesome = false;
+        }
+    }
    });
 
 
