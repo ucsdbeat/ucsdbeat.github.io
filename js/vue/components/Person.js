@@ -17,8 +17,8 @@ const Person = Vue.component('person', {
             </div>
         </div>
         <div class="content text-center">
-            <h5><a href="#" v-on:click="openModal(first)"> {{ first }} <br> {{ last }} </a></h5>
-            <div v-bind:id="first + 'modal'" v-if="awesome" v-on:click="closeModal()">
+            <h5><a href="#" v-on:click="openModal($event)"> {{ first }} <br> {{ last }} </a></h5>
+            <div v-bind:id="first + 'modal'" v-if="toggleModal" v-on:click="closeModal()">
                 <div class="modal-textbox">
                     <h1>{{first}} {{last}}</h1>
                     <p>This is who I am</p>
@@ -32,20 +32,18 @@ const Person = Vue.component('person', {
     `,
     data: function(){
         return {
-            awesome: false
+            toggleModal: false
         }
     },
     methods: {
-        openModal: function(info) {
-            this.awesome = true;
-            console.log("Infor", info);
-            console.log("awesome", this.awesome)
-            console.log()
+        openModal: function(event) {
+            event.preventDefault();
+            this.toggleModal = true;
         },
 
         closeModal: function(){
             console.log("close")
-            this.awesome = false;
+            this.toggleModal = false;
         }
     }
    });
