@@ -277,7 +277,7 @@ button:hover {
 }
 
 .section {
-  padding: 90px 0;
+  padding: 40px 0;
 }
 
 .border-less {
@@ -3437,10 +3437,6 @@ ul.pagination .active a {
 .error .block h3 span {
   font-style: italic;
   color: #222222;
-}
-
-.faq {
-    padding: 40px 0;
 }
 
 .faq .accordion-block #accordion .card, .faq .accordion-block #accordionTwo .card {
