@@ -537,6 +537,20 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
 }
 
+.btn-outline-md {
+  background: #fff;
+  color: #222222;
+  padding: 15px 40px;
+  border-radius: 0;
+  border: #161616 1px solid;
+}
+
+.btn-outline-md:hover {
+  background: #FFDB3F;
+  color: #fff;
+  border: 0;
+}
+
 .btn-rounded-icon {
   border-radius: 100px;
   color: #fff;
@@ -3416,6 +3430,10 @@ ul.pagination .active a {
 .error .block h3 span {
   font-style: italic;
   color: #222222;
+}
+
+.faq {
+    padding: 40px 0;
 }
 
 .faq .accordion-block #accordion .card, .faq .accordion-block #accordionTwo .card {
