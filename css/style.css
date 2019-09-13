@@ -270,6 +270,12 @@ button:hover {
   background-position: center center;
 }
 
+.bg-about-title {
+  background: url(../images/background/page-about-title-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .section {
   padding: 90px 0;
 }
