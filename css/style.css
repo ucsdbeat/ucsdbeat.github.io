@@ -3601,13 +3601,5 @@ ul.pagination .active a {
   top: 50%;
   left:50%; 
   background-color: white;
-  transform: translateX(-50%);
-}
-
-h5.mb-0 {
-  white-space: nowrap;
-}
-
-h5.mb-0 span.auditionText {
-  white-space: normal;
-}
+  transform: translateX(-50%)
+;}
