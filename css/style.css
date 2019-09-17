@@ -79,7 +79,6 @@ ul.social-links li a i {
 
 .overlay:before {
   content: '';
-  background: url(../images/background/objects.png) no-repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -545,7 +544,15 @@ select.form-control:not([size]):not([multiple]) {
   border-radius: 0;
 }
 
-.btn-white-md:hover {
+.btn-hire-md {
+  background: #fff;
+  color: #222222;
+  padding: 15px 45px;
+  border-radius: 0;
+  font-size: 1.2rem;
+}
+
+.btn-hire-md:hover {
   background: #FFDB3F;
   color: #fff;
 }
@@ -1024,16 +1031,18 @@ select.form-control:not([size]):not([multiple]) {
 
 .banner .block h1 {
   text-transform: uppercase;
-  font-size: 5.5rem;
+  font-size: 7rem;
+  letter-spacing: .4rem;
   color: #FFDB3F;
   font-weight: 500;
   margin-bottom: 5px;
-  text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 4.5px 6.062px 0px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 767px) {
   .banner .block h1 {
     font-size: 4rem;
+    letter-spacing: .22rem;
   }
 }
 
@@ -1042,7 +1051,7 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 3.625rem;
   color: #fff;
   font-weight: 400;
-  text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 4.5px 6.062px 0px rgba(0, 0, 0, 0.25);
   font-style: italic;
 }
 
