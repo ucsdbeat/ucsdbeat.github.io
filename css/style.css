@@ -601,11 +601,22 @@ select.form-control:not([size]):not([multiple]) {
   font-family: "Roboto", sans-serif;
 }
 
-.main-nav .navbar-nav .nav-item .nav-link {
+.main-nav .navbar-nav .nav-item .nav-link.nav-link-white {
   position: relative;
   text-align: center;
   /* color: #222222; */
   color: #fff;
+  padding-left: 8px;
+  padding-right: 20px;
+  font-size: 1.06rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link.nav-link-black {
+  position: relative;
+  text-align: center;
+  color: #222222;
+  /* color: #fff; */
   padding-left: 8px;
   padding-right: 20px;
   font-size: 1.06rem;
