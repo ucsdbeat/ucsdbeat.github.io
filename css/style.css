@@ -575,18 +575,19 @@ select.form-control:not([size]):not([multiple]) {
   /* background: #fff;  changing default*/
 
   color: white;
-  transition: .3s;
+  transition: all .3s ease-in;
 
 }
 
 .main-nav-white{
   background-color: #fff;
   max-height: 4.4rem;
-  transition: .3s;
+  transition: all .3s;
 }
 
 .main-nav-transparent{
   background-color: transparent;
+  transition: all .3s;
   
 }
 
