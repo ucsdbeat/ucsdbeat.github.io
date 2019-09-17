@@ -582,7 +582,7 @@ select.form-control:not([size]):not([multiple]) {
 .main-nav-white{
   background-color: #fff;
   max-height: 4.4rem;
-  transition: .4;
+  transition: .3s;
 }
 
 .main-nav-transparent{
