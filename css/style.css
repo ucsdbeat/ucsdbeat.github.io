@@ -3608,5 +3608,18 @@ ul.pagination .active a {
   top: 50%;
   left:50%; 
   background-color: white;
-  transform: translateX(-50%)
-;}
+  transform: translateX(-50%);
+}
+
+.audition-faq .faq-text {
+  border-right: 0 !important;
+  padding: 0px !important; 
+  margin: 0px !important;
+  white-space: normal;
+}
+
+
+
+.audition-faq h5{ 
+  white-space: nowrap;
+}
