@@ -272,7 +272,13 @@ button:hover {
 }
 
 .bg-about-title {
-  background: url(../images/background/page-about-title-bg.jpg) no-repeat;
+  background: url(../images/background/page-about-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-perf-title {
+  background: url(../images/background/page-perf-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
