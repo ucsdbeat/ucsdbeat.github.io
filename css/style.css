@@ -554,8 +554,7 @@ select.form-control:not([size]):not([multiple]) {
 .btn-outline-md:hover {
   background: #FFDB3F;
   color: #fff;
-  padding: 16px 41px;
-  border: 0;
+  border-color: white;
 }
 
 .btn-rounded-icon {
