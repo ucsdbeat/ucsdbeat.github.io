@@ -6,24 +6,20 @@ let navLinks = nav.querySelectorAll('.nav-item .nav-link');
 
 
 console.log(nav);
+
 window.addEventListener('scroll', function(){
-    var active = nav.querySelector(".nav-item.active .nav-link");
-    if(this.window.scrollY > 50) {
-        nav.style.backgroundColor = "#fff";  
-        for(let i = 0; i < navLinks.length; i++){
-            navLinks[i].style.color = "#000";
-        }
-        
-    } else if(this.window.scrollY < 50) {
-        nav.style.backgroundColor = "transparent";   
-        for(let i = 0; i < navLinks.length; i++){
-            navLinks[i].style.color = "#fff";
-        }    
+    let links = (nav.querySelectorAll('.nav-link.nav-link-white').length > 0) ? nav.querySelectorAll('.nav-link.nav-link-white') : nav.querySelectorAll('.nav-link.nav-link-black');
+    console.log(links);
+    if(window.scrollY > 50) {
+        loopThrough(links, 'nav-link-black', 'nav-link-white');
+    } else {
+        loopThrough(links, 'nav-link-white', 'nav-link-black');
     }
-    if(this.window.scrollY > 100) {
-        nav.style.maxHeight = "8%";
-    }else {
-        nav.style.maxHeight = "100%";
-    }
-    active.style.color = "#FFDB3F"; 
 })
+
+function loopThrough(links, addClassName, removeClassName) {
+    for (let i = 0; i < links.length; i++) {
+        links[i].classList.add(addClassName);
+        links[i].classList.remove(removeClassName);
+    }     
+}
