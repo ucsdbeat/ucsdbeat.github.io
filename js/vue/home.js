@@ -1,6 +1,6 @@
 const app = new Vue({
     el: '#app',
     data: {
-        about_subtext: "Holy crap this thing is actually working!"
+        about_subtext: "Hailing from sunny La Jolla, CA, The Beat..."
     }
   });

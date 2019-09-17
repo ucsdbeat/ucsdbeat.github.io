@@ -68,7 +68,7 @@ const app = new Vue({
                 link: 'https://www.instagram.com/monkeytarzan/?hl=en'
               },
               {
-                class: 'fa fa-linkedin',
+                class: 'fa fa-snapchat',
                 link: 'https://www.linkedin.com/in/andrewmokht/'
               },
               {
