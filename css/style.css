@@ -1244,6 +1244,7 @@ select.form-control:not([size]):not([multiple]) {
   color: #222222;
   font-weight: 400;
   margin-bottom: 0;
+  
 }
 
 .speakers .speaker-item .content h5 a:hover {
@@ -3451,6 +3452,13 @@ ul.pagination .active a {
 .faq .accordion-block #accordion .card .card-header h5 a, .faq .accordion-block #accordionTwo .card .card-header h5 a {
   font-weight: 400;
   color: #222222;
+}
+
+
+@media (max-width: 1024px) {
+  .faq .accordion-block #accordion .card .card-header h5 a, .faq .accordion-block #accordionTwo .card .card-header h5 a .mobile-break {
+    display: inline;
+  }
 }
 
 .faq .accordion-block #accordion .card .card-header h5 a span, .faq .accordion-block #accordionTwo .card .card-header h5 a span {
