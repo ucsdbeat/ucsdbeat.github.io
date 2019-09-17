@@ -572,12 +572,16 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .main-nav {
-  background: #fff;
+  /* background: #fff;  changing default*/
+  background: transparent;
+  color: white;
+  transition: .3s;
+
 }
 
 .main-nav .navbar-brand {
   padding: 30px 35px 30px 40px;
-  border-right: 1px solid #e5e5e5;
+  /* border-right: 1px solid #e5e5e5; */
 }
 
 @media (max-width: 1024px) {
@@ -600,7 +604,8 @@ select.form-control:not([size]):not([multiple]) {
 .main-nav .navbar-nav .nav-item .nav-link {
   position: relative;
   text-align: center;
-  color: #222222;
+  /* color: #222222; */
+  color: #fff;
   padding-left: 8px;
   padding-right: 20px;
   font-size: 1.06rem;
