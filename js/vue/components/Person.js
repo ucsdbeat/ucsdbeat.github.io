@@ -17,12 +17,19 @@ const Person = Vue.component('person', {
             </div>
         </div>
         <div class="content text-center">
-            <h5><a href="#" v-on:click="openModal($event)"> {{ first }} <br> {{ last }} </a></h5>
+            <h5><a href="#" v-on:click="openModal($event, picture)"> {{ first }} <br> {{ last }} </a></h5>
             <div v-bind:id="first + 'modal'" v-if="toggleModal" v-on:click="closeModal()">
                 <div class="modal-textbox">
-                    <h1>{{first}} {{last}}</h1>
-                    <p>This is who I am</p>
-                    <p>I am an amazing singer in theBeat</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                        
+                        </div>
+                        <div class="col-md-6">
+                            <h1>{{first}} {{last}}</h1>
+                            <p>This is who I am</p>
+                            <p>I am an amazing singer in theBeat</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <p>{{ part }}</p>
@@ -30,14 +37,29 @@ const Person = Vue.component('person', {
     </div>
  </div>
     `,
+
+    // <img v-bind:src="picture" alt="speaker" class="img-fluid">
     data: function(){
         return {
             toggleModal: false
         }
     },
     methods: {
-        openModal: function(event) {
+        openModal: function(event, picture) {
             event.preventDefault();
+            let box = event.target.parentNode.parentNode.children;
+            console.log(box.length)
+            let checkBox = setInterval(function() {
+                if (box.length > 2) {
+                    b = box[1].querySelector('.modal-textbox .col-md-6');
+                   console.log("Exists!", b);
+                //    b.style.backgroundColor = "#ff0000";
+                    b.style.backgroundImage = "url('"+picture+"')";
+                //    console.log(b.style);
+                   clearInterval(checkBox);
+                }
+             }, 100);
+            
             this.toggleModal = true;
         },
 
