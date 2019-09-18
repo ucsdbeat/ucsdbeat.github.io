@@ -3671,6 +3671,11 @@ ul.pagination .active a {
   background-position: center;
 }
 
+.modal-textbox .row .col-md-6:last-child {
+  position: relative; 
+  margin-top: 20%; 
+}
+
 .audition-faq .faq-text {
   border-right: 0 !important;
   padding: 0px !important; 
