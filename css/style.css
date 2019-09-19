@@ -3680,6 +3680,11 @@ ul.pagination .active a {
   top: 50%;
   transform: translateY(-50%);
 }
+.modal-textbox .row .col-md-6 .col-md-12 {
+  /* position: relative; 
+  margin-top: 20%;  */
+  text-align: left;
+}
 
 .audition-faq .faq-text {
   border-right: 0 !important;

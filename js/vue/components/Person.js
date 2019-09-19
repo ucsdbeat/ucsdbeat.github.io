@@ -1,5 +1,5 @@
 const Person = Vue.component('person', {
-    props: ['first', 'last', 'part', 'picture', 'link', 'socla1', 'soli1', 'socla2', 'soli2', 'socla3', 'soli3', 'socla4', 'soli4'],
+    props: ['first', 'last', 'part', 'major', 'year', 'picture', 'link', 'socla1', 'soli1', 'socla2', 'soli2', 'socla3', 'soli3', 'socla4', 'soli4'],
     template: `
     <div class="col-lg-3 col-md-4 col-sm-6">
     <div class="speaker-item">
@@ -28,8 +28,8 @@ const Person = Vue.component('person', {
                             <i v-on:click="closeModal()" class="fa fa-times" style="display: inline-block; color: #c6bfb2; font-size: 6em; position: absolute; top: .2em; right: .7em;"></i>
                             <div class="col-md-12">
                                 <h1>{{first}} {{last}}</h1>
-                                <p>This is who I am</p>
-                                <p>I am an amazing singer in theBeat</p>
+                                <p>Major: {{major}}</p>
+                                <p>Year:{{year}}</p>
                             </div>
                             
                         </div>
