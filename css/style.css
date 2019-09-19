@@ -566,7 +566,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .btn-outline-md:hover {
-  background: #FFDB3F;
+  background: rgb(26, 25, 24);
   color: #fff;
   border-color: white;
 }
@@ -630,6 +630,10 @@ select.form-control:not([size]):not([multiple]) {
   padding-right: 20px;
   font-size: 1.06rem;
   font-family: "Montserrat", sans-serif;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link.nav-link-white:hover {
+  color: #FFDB3F;
 }
 
 
@@ -3651,6 +3655,12 @@ ul.pagination .active a {
 
 .modal-textbox {
   position: absolute; 
+<<<<<<< HEAD
+  top: 50%;
+  left:50%; 
+  background-color: white;
+  transform: translateX(-50%);
+=======
   /* top: 50%;
   left:50%;  */
   /* top: 4.4em; */
@@ -3679,6 +3689,7 @@ ul.pagination .active a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+>>>>>>> 544136c9fd7d033f0ad78055d6e1a9f79d57c7e9
 }
 .modal-textbox .row .col-md-6 .col-md-12 {
   /* position: relative; 
