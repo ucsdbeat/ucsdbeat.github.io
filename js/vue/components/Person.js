@@ -25,11 +25,11 @@ const Person = Vue.component('person', {
                         
                         </div>
                         <div class="col-md-6">
-                            <i v-on:click="closeModal()" class="fa fa-times" style="display: inline-block; color: #c6bfb2; font-size: 6em; position: absolute; top: .2em; right: .7em;"></i>
+                            <img src=images/close.png v-on:click="closeModal()"  style="display: inline-block;  height=5px; width=5px; position: absolute; top: 1em; right: 2em;">
                             <div class="col-md-12">
                                 <h1>{{first}} {{last}}</h1>
-                                <p>Major: {{major}}</p>
-                                <p>Year:{{year}}</p>
+                                <h6>Major: {{major}}</h6>
+                                <h6>Year: {{year}}</h6>
                             </div>
                             
                         </div>

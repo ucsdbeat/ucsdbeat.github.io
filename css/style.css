@@ -582,21 +582,21 @@ select.form-control:not([size]):not([multiple]) {
   /* background: #fff;  changing default*/
 
   color: white;
-  transition: all .3s ease-in;
 
 }
 
 
 .main-nav-white{
   background-color: #fff;
-  max-height: 4.4rem;
-  transition: all .7s;
+  height: 4.4rem;
+  transition: all 0.7s;
+  
+
 }
 
 .main-nav-transparent{
   background-color: transparent;
-  transition: all .7s;
-  
+  transition: all 0.7s;
 }
 
 .main-nav .navbar-brand {
@@ -632,10 +632,6 @@ select.form-control:not([size]):not([multiple]) {
   font-family: "Montserrat", sans-serif;
 }
 
-.main-nav .navbar-nav .nav-item .nav-link.nav-link-white:hover {
-  color: #FFDB3F;
-}
-
 
 .main-nav .navbar-nav .nav-item .nav-link.nav-link-black {
   position: relative;
@@ -646,6 +642,10 @@ select.form-control:not([size]):not([multiple]) {
   padding-right: 20px;
   font-size: 1.06rem;
   font-family: "Montserrat", sans-serif;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link:hover {
+  color: #FFDB3F;
 }
 
 @media (max-width: 1024px) {
