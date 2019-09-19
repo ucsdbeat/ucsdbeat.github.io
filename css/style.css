@@ -3681,7 +3681,7 @@ ul.pagination .active a {
   /* position: relative; 
   margin-top: 20%;  */
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
 }
 .modal-textbox .row .col-md-6 .col-md-12 {
@@ -3697,7 +3697,14 @@ ul.pagination .active a {
   white-space: normal;
 }
 
-
+.closeModal {
+  display: inline-block; 
+  color: #c6bfb2; 
+  font-size: 6em; 
+  position: absolute; 
+  top: .2em; 
+  right: .7em;
+}
 
 .audition-faq h5{ 
   white-space: nowrap;

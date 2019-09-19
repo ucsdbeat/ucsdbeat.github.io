@@ -25,7 +25,7 @@ const Person = Vue.component('person', {
                         
                         </div>
                         <div class="col-md-6">
-                            <img src=images/close.png v-on:click="closeModal()"  style="display: inline-block;  height=5px; width=5px; position: absolute; top: 1em; right: 2em;">
+                            <img src=images/close.png v-on:click="closeModal()"  class="closeModal">
                             <div class="col-md-12">
                                 <h1>{{first}} {{last}}</h1>
                                 <h6>Major: {{major}}</h6>
