@@ -18,16 +18,20 @@ const Person = Vue.component('person', {
         </div>
         <div class="content text-center">
             <h5><a href="#" v-on:click="openModal($event, picture)"> {{ first }} <br> {{ last }} </a></h5>
-            <div v-bind:id="first + 'modal'" v-if="toggleModal" v-on:click="closeModal()">
+            <div v-bind:id="first + 'modal'" v-if="toggleModal">
                 <div class="modal-textbox">
                     <div class="row">
                         <div class="col-md-6">
                         
                         </div>
                         <div class="col-md-6">
-                            <h1>{{first}} {{last}}</h1>
-                            <p>This is who I am</p>
-                            <p>I am an amazing singer in theBeat</p>
+                            <i v-on:click="closeModal()" class="fa fa-times" style="display: inline-block; color: #c6bfb2; font-size: 6em; position: absolute; top: .2em; right: .7em;"></i>
+                            <div class="col-md-12">
+                                <h1>{{first}} {{last}}</h1>
+                                <p>This is who I am</p>
+                                <p>I am an amazing singer in theBeat</p>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -49,13 +53,13 @@ const Person = Vue.component('person', {
             event.preventDefault();
             let box = event.target.parentNode.parentNode.children;
             console.log(box.length)
+            let navbar = document.querySelector('.navbar');
+            navbar.style.zIndex = -1; 
             let checkBox = setInterval(function() {
                 if (box.length > 2) {
                     b = box[1].querySelector('.modal-textbox .col-md-6');
-                   console.log("Exists!", b);
-                //    b.style.backgroundColor = "#ff0000";
+                    console.log("Exists!", b);
                     b.style.backgroundImage = "url('"+picture+"')";
-                //    console.log(b.style);
                    clearInterval(checkBox);
                 }
              }, 100);
@@ -64,8 +68,8 @@ const Person = Vue.component('person', {
         },
 
         closeModal: function(){
-            console.log("close")
             this.toggleModal = false;
+            document.querySelector('.navbar').style.zIndex = 1;
         }
     }
    });
