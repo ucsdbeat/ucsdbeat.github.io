@@ -3,4 +3,4 @@ const app = new Vue({
     data: {
         about_subtext: "Hailing from sunny La Jolla, CA, The Beat..."
     }
-  });
+  }); 
