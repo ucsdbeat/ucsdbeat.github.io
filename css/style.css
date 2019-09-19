@@ -586,9 +586,6 @@ select.form-control:not([size]):not([multiple]) {
 
 }
 
-.navbar {
-  z-index: -1; 
-}
 
 .main-nav-white{
   background-color: #fff;
