@@ -566,7 +566,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .btn-outline-md:hover {
-  background: #FFDB3F;
+  background: rgb(26, 25, 24);
   color: #fff;
   border-color: white;
 }
@@ -629,6 +629,10 @@ select.form-control:not([size]):not([multiple]) {
   padding-right: 20px;
   font-size: 1.06rem;
   font-family: "Montserrat", sans-serif;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link.nav-link-white:hover {
+  color: #FFDB3F;
 }
 
 
@@ -3650,30 +3654,10 @@ ul.pagination .active a {
 
 .modal-textbox {
   position: absolute; 
-  /* top: 50%;
-  left:50%;  */
-  top: 4.4em;
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
+  top: 50%;
+  left:50%; 
   background-color: white;
-  /* transform: translateX(-50%); */
-}
-
-.modal-textbox .row {
-  height: 100vh;
-}
-
-.modal-textbox .row .col-md-6:first-child {
-  background-color: #000;
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-position: center;
-}
-
-.modal-textbox .row .col-md-6:last-child {
-  position: relative; 
-  margin-top: 20%; 
+  transform: translateX(-50%);
 }
 
 .audition-faq .faq-text {
