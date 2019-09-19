@@ -3535,7 +3535,7 @@ ul.pagination .active a {
 
 
 #Finivamodal {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #fff;
   position: fixed; 
   top: 0; 
   left: 0; 
@@ -3545,7 +3545,7 @@ ul.pagination .active a {
 }
 
 #Andrewmodal {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #fff;
   position: fixed; 
   top: 0; 
   left: 0; 
@@ -3667,15 +3667,18 @@ ul.pagination .active a {
 }
 
 .modal-textbox .row .col-md-6:first-child {
-  background-color: #000;
+  background-color: #fff;
   background-repeat: no-repeat;
   /* background-size: cover; */
   background-position: center;
 }
 
-.modal-textbox .row .col-md-6:last-child {
-  position: relative; 
-  margin-top: 20%; 
+.modal-textbox .row .col-md-6 .col-md-12 {
+  /* position: relative; 
+  margin-top: 20%;  */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .audition-faq .faq-text {
