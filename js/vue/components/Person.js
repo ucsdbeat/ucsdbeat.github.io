@@ -53,9 +53,7 @@ const Person = Vue.component('person', {
                 if (box.length > 2) {
                     b = box[1].querySelector('.modal-textbox .col-md-6');
                    console.log("Exists!", b);
-                //    b.style.backgroundColor = "#ff0000";
                     b.style.backgroundImage = "url('"+picture+"')";
-                //    console.log(b.style);
                    clearInterval(checkBox);
                 }
              }, 100);
