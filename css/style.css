@@ -791,7 +791,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .navbar-toggler:focus, .navbar-toggler:hover {
   outline: none;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .page-title {

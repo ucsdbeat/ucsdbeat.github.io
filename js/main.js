@@ -30,5 +30,6 @@ function changeBackgoundColor (nav, addName, removeName) {
 let menu = document.querySelector('button.hamburger');
 
 menu.addEventListener('click', function() {
-    menu.classList.toggle('isActive');
+    console.log("asdfadf")
+    menu.classList.toggle('is-active');
 })
