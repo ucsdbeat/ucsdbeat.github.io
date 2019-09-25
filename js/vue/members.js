@@ -7,7 +7,7 @@ const app = new Vue({
             lastName : 'Ednalino',
             image: './images/members/fin.jpg',
             partPos: 'President - Alto',
-            major: 'Psychology, spec. Developmental Psych',
+            major: 'Developmental Psychology',
             year: '4th',
             link: './members/finiva.html',
             socials: [
@@ -74,7 +74,7 @@ const app = new Vue({
                 link: 'https://www.instagram.com/monkeytarzan/?hl=en'
               },
               {
-                class: 'fa fa-snapchat',
+                class: 'fa fa-tumblr',
                 link: 'https://www.linkedin.com/in/andrewmokht/'
               },
               {
@@ -88,7 +88,7 @@ const app = new Vue({
             lastName : 'Sethuraman',
             image: './images/members/anu.jpg',
             partPos: 'Music Director - Alto',
-            major: 'Earth Science',
+            major: 'Environmental Systems',
             year: '2nd',
             link: './members/anu.html',
             socials: [
@@ -115,7 +115,7 @@ const app = new Vue({
             lastName : 'Chiu',
             image: './images/members/dav.jpg',
             partPos: 'Public Relations - Bass',
-            major: 'Cognitive Science',
+            major: 'Cognitive Science - Design & Interaction',
             year: '3rd',
             link: './members/david.html',
             socials: [
@@ -169,7 +169,7 @@ const app = new Vue({
             lastName : 'Carl',
             image: './images/members/mik.jpg',
             partPos: 'Treasurer - Soprano',
-            major: 'Undeclared',
+            major: 'Earth Science',
             year: '2nd',
             link: './members/mika.html',
             socials: [
@@ -196,7 +196,7 @@ const app = new Vue({
             lastName : 'Benson',
             image: './images/members/kat.jpg',
             partPos: 'Soprano',
-            major: 'Undeclared',
+            major: 'Marine Biology',
             year: '3rd',
             link: './members/katelyn.html',
             socials: [
@@ -223,7 +223,7 @@ const app = new Vue({
             lastName : 'Austin',
             image: './images/members/sar.jpg',
             partPos: 'Alto',
-            major: 'TO BE INSERTED',
+            major: 'Cognitive Science',
             year: '4th',
             link: './members/sarah.html',
             socials: [
@@ -277,7 +277,7 @@ const app = new Vue({
             lastName : 'Lee',
             image: './images/members/jae.jpg',
             partPos: 'Bass/Vocal Percussion',
-            major: 'INSERT MAJOR HERE',
+            major: 'Math/Computer Science',
             year: '4th',
             link: './members/jae.html',
             socials: [
@@ -304,7 +304,7 @@ const app = new Vue({
             lastName : 'Chang',
             image: './images/members/joh.jpg',
             partPos: 'Bass',
-            major: 'TO BE INSERTED',
+            major: 'International Studies',
             year: '2nd',
             link: './members/johnny.html',
             socials: [

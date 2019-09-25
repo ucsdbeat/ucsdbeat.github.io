@@ -201,6 +201,10 @@ button:hover {
   background-size: cover;
   background-position: center;
   height: 100vh;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-banner-two {
@@ -278,6 +282,12 @@ button:hover {
 
 .bg-perf-title {
   background: url(../images/background/page-perf-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-contact-title {
+  background: url(../images/background/page-contact-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -566,8 +576,9 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .btn-outline-md:hover {
-  background: rgb(26, 25, 24);
+  background: #FFDB3F;
   color: #fff;
+  
   border-color: white;
 }
 
