@@ -3717,3 +3717,8 @@ ul.pagination .active a {
 .audition-faq h5{ 
   white-space: nowrap;
 }
+
+.carousel-inner img {
+  width: 85%;
+  height: 85%;
+}
