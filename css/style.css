@@ -600,11 +600,15 @@ select.form-control:not([size]):not([multiple]) {
   
 
 }
+@media (min-width: 1024px) {
+  /* maybe put something here */
+}
 
 .main-nav-transparent{
   background-color: transparent;
   transition: all 0.7s;
 }
+
 
 .main-nav .navbar-brand {
   padding: 30px 35px 30px 40px;
@@ -655,9 +659,10 @@ select.form-control:not([size]):not([multiple]) {
   color: #FFDB3F;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 991px) {
   .main-nav .navbar-nav .nav-item .nav-link {
     font-size: 0.875rem;
+    background: rgba(0, 0, 0, 0.9);
   }
 }
 
@@ -754,6 +759,7 @@ select.form-control:not([size]):not([multiple]) {
   .main-nav .dropdown-slide .dropdown-menu {
     -webkit-transform: none;
             transform: none;
+            background-color: #1e5799 !important;
   }
 }
 
