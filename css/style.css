@@ -201,10 +201,6 @@ button:hover {
   background-size: cover;
   background-position: center;
   height: 100vh;
-    background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .bg-banner-two {
