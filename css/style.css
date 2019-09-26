@@ -661,6 +661,7 @@ select.form-control:not([size]):not([multiple]) {
 .nav-background {
   background: rgba(0, 0, 0, 1);
   color: white;
+  /* transition: all .1s ease-in-out; */
 }
 
 .main-nav .navbar-nav .nav-item .nav-link:hover {
@@ -3734,4 +3735,8 @@ ul.pagination .active a {
 .carousel-inner img {
   width: 85%;
   height: 85%;
+}
+
+.container-fluid {
+  transition: all .5s !important;
 }
