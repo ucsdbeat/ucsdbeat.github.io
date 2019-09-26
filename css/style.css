@@ -767,7 +767,6 @@ select.form-control:not([size]):not([multiple]) {
   .main-nav .dropdown-slide .dropdown-menu {
     -webkit-transform: none;
             transform: none;
-            background-color: #1e5799 !important;
   }
 }
 
