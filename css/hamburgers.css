@@ -28,6 +28,11 @@
   .hamburger.is-active .hamburger-inner::after {
     background-color: #000; }
 
+  .hamburger.is-active.w .hamburger-inner,
+  .hamburger.is-active.w .hamburger-inner::before,
+  .hamburger.is-active.w .hamburger-inner::after {
+    background-color: #fff; }
+
 .hamburger-box {
   width: 20px;
   height: 12px;
@@ -57,6 +62,9 @@
   .hamburger-inner::after {
     bottom: -10px; }
 
+    .hamburger-inner.w, .hamburger-inner.w::before, .hamburger-inner.w::after {
+      background-color: #fff;
+    }
 /*
    * 3DX
    */

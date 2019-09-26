@@ -595,6 +595,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .main-nav-white{
   background-color: #fff;
+  color: white;
   height: 4.4rem;
   transition: all 0.7s;
   
@@ -644,15 +645,22 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 
-.main-nav .navbar-nav .nav-item .nav-link.nav-link-black {
-  position: relative;
-  text-align: center;
-  color: #222222;
-  /* color: #fff; */
-  padding-left: 8px;
-  padding-right: 20px;
-  font-size: 1.06rem;
-  font-family: "Montserrat", sans-serif;
+@media(min-width: 991px) {
+  .main-nav .navbar-nav .nav-item .nav-link.nav-link-black {
+    position: relative;
+    text-align: center;
+    color: #222222;
+    /* color: #fff; */
+    padding-left: 8px;
+    padding-right: 20px;
+    font-size: 1.06rem;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+.nav-background {
+  background: rgba(0, 0, 0, .9);
+  color: white;
 }
 
 .main-nav .navbar-nav .nav-item .nav-link:hover {

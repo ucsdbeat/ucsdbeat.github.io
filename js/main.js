@@ -5,19 +5,22 @@ let navLinks = nav.querySelectorAll('.nav-item .nav-link');
 
 window.addEventListener('scroll', function(){
     let links = (nav.querySelectorAll('.nav-link.nav-link-white').length > 0) ? nav.querySelectorAll('.nav-link.nav-link-white') : nav.querySelectorAll('.nav-link.nav-link-black');
-    if(window.scrollY > 50) {
-        loopThroughAndChangeFont(links, 'nav-link-black', 'nav-link-white');
+    if(window.scrollY > 50 && !links[0].classList.contains('nav-link-black')) {
+        loopThroughAndChangeFont(links, 'nav-link-black');
         changeBackgoundColor(nav, 'main-nav-white', 'main-nav-transparent');
-    } else {
-        loopThroughAndChangeFont(links, 'nav-link-white', 'nav-link-black');
+    } else if (window.scrollY <= 50 && links[0].classList.contains('nav-link-black')){
+        loopThroughAndChangeFont(links, 'nav-link-black', 'r');
         changeBackgoundColor(nav, 'main-nav-transparent', 'main-nav-white');
     }
 })
 
-function loopThroughAndChangeFont(links, addClassName, removeClassName) {
+function loopThroughAndChangeFont(links, className, action) {
     for (let i = 0; i < links.length; i++) {
-        links[i].classList.add(addClassName);
-        links[i].classList.remove(removeClassName);
+        if(action == 'r') {
+            links[i].classList.remove(className);
+        } else { 
+            links[i].classList.add(className);
+        }
     }     
 }
 
@@ -32,4 +35,14 @@ let menu = document.querySelector('button.hamburger');
 menu.addEventListener('click', function() {
     console.log("asdfadf")
     menu.classList.toggle('is-active');
+    menu.parentNode.classList.toggle('nav-background');
+    menu.classList.toggle('w');
+    menu.querySelector(".hamburger-inner").classList.toggle('w');
+    // if(menu.classList.contains('is-active')) {
+    //     console.log("div parent button: ", menu.parentNode);
+       
+    // } else {
+
+    // }
+
 })
