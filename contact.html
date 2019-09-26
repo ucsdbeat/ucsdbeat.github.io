@@ -20,6 +20,8 @@
   <!-- Slick Carousel -->
   <link href="plugins/slick/slick.css" rel="stylesheet">
   <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+
+  <link href="css/hamburgers.css" rel="stylesheet">
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -35,37 +37,39 @@
 =            Navigation Section            =
 =========================================-->
 
-<nav class="navbar main-nav fixed-top navbar-expand-lg p-0">
+<nav class="navbar main-nav main-nav-transparent fixed-top navbar-expand-lg p-0">
   <div class="container-fluid p-0">
       <!-- logo -->
       <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" alt="logo">
+        <img src="images/logo.png" alt="logo"> 
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fa fa-bars"></span>
+      <button class="navbar-toggler hamburger hamburger--emphatic" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger-box" >
+			<span class="hamburger-inner"></span>
+		  </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link nav-link-white" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown dropdown-slide">
-          <a class="nav-link nav-link-white" href="#" data-toggle="dropdown">About</a>
-            <!-- Dropdown list -->
-            <div class="dropdown-menu">
-            <a class="dropdown-item" href="about-us.html">The Group</a>
-            <a class="dropdown-item" href="about-us.html#members">Members</a>
-            </div>
-          </li>
+		</li>
+		<li class="nav-item dropdown dropdown-slide">
+			<a class="nav-link nav-link-white" href="#" data-toggle="dropdown">About</a>
+			  <!-- Dropdown list -->
+			  <div class="dropdown-menu">
+				<a class="dropdown-item" href="about-us.html">The Group</a>
+				<a class="dropdown-item" href="about-us.html#members">Members</a>
+			  </div>
+		  </li>
         <li class="nav-item">
-			    <a class="nav-link nav-link-white" href="performances.html">Performances</a>
-		    </li>
+			<a class="nav-link nav-link-white" href="performances.html">Performances</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link nav-link-white" href="auditions.html">Auditions</a>
+		</li>
         <li class="nav-item">
-          <a class="nav-link nav-link-white" href="auditions.html">Auditions</a>
-        </li>
-            <li class="nav-item active">
-          <a class="nav-link nav-link-white" href="contact.html">Contact</a>
-        </li>
+			<a class="nav-link nav-link-white" href="contact.html">Contact</a>
+		</li>
       </div>
   </div>
 </nav>
