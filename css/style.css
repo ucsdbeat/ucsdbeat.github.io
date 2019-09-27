@@ -3798,3 +3798,7 @@ ul.pagination .active a {
 .container-fluid {
   transition: all .5s !important;
 }
+
+.navbar-collapse {
+  max-height:100% !important;
+}
