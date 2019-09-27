@@ -3723,8 +3723,8 @@ ul.pagination .active a {
   .modal-textbox .row:last-child .col-md-6:first-child {
     background-color: #fff;
     background-repeat: no-repeat;
-    background-position: 10% 10% 10% 10%;
-    background-size: cover; 
+    background-position: 10% 0 10% 0;
+    background-size: contain; 
     
     height: 100vh;
   }
@@ -3742,10 +3742,16 @@ ul.pagination .active a {
 }
 
 @media(max-width: 767px) {
+  .modal-textbox .row:last-child .col-md-6 {
+    padding: 0px;
+  }
+  
   .modal-textbox .row:last-child .col-md-6 .col-md-12 {
     position: absolute;
+    /* top: 25%; */
+    transform: translateY(-100%);
     /* top: 50%; */
-    bottom: 0;
+    /* bottom: 0; */
     padding: 25px;
     background-color: #fff;
     /* right: 1.8em; */
