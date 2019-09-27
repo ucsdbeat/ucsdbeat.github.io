@@ -3723,9 +3723,10 @@ ul.pagination .active a {
   .modal-textbox .row:last-child .col-md-6:first-child {
     background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto; 
-    height: 80vh;
+    background-position: 10% 10% 10% 10%;
+    background-size: cover; 
+    
+    height: 75vh;
   }
 }
 
@@ -3737,6 +3738,14 @@ ul.pagination .active a {
     top: 50%;
     right: 1.8em;
     transform: translateY(-50%);
+  }
+}
+
+@media(max-width: 767px) {
+  .modal-textbox .row:last-child .col-md-6 .col-md-12 {
+    position: relative;
+    top: 50%;
+    /* right: 1.8em; */
   }
 }
 
