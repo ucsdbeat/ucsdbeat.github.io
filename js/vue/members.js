@@ -67,11 +67,11 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/jacob.benson.90857'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
+                link: 'https://www.instagram.com/jenbacobson/?hl=en'
               },
               {
                 class: 'fa fa-tumblr',
@@ -94,11 +94,11 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/profile.php?id=100009895364911'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
+                link: 'https://www.instagram.com/_anuuuuuu__/?hl=en'
               },
               {
                 class: 'fa fa-linkedin',
@@ -121,7 +121,7 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/david.chiu.313371'
               },
               {
                 class: 'fa fa-instagram',
@@ -148,7 +148,7 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/catherine.kuh'
               },
               {
                 class: 'fa fa-instagram',
@@ -175,11 +175,11 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/mika.carl.37'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
+                link: 'https://www.instagram.com/mika_carl/?hl=en'
               },
               {
                 class: 'fa fa-linkedin',
@@ -202,11 +202,11 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/profile.php?id=100005170185143'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
+                link: 'https://www.instagram.com/katelynb19/?hl=en'
               },
               {
                 class: 'fa fa-linkedin',
@@ -229,7 +229,7 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/saansuau'
               },
               {
                 class: 'fa fa-instagram',
@@ -256,11 +256,11 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/christopher.kagoo'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
+                link: 'https://www.instagram.com/swiggityswagoo/?hl=en'
               },
               {
                 class: 'fa fa-linkedin',
@@ -283,15 +283,15 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/jae.lee.3110567'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
+                link: 'https://www.instagram.com/jaelee0322/?hl=en'
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: 'https://www.linkedin.com/in/johnathan-chang/'
               },
               {
                 class: 'fa fa-youtube',
@@ -310,11 +310,11 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/johnathan.chang.7'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
+                link: 'https://www.instagram.com/johnathanchang/?hl=en'
               },
               {
                 class: 'fa fa-linkedin',
