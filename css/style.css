@@ -3675,42 +3675,90 @@ ul.pagination .active a {
   z-index: 1000;
 }
 
+
 .modal-textbox {
-  position: absolute; 
-  /* top: 50%;
-  left:50%;  */
-  /* top: 4.4em; */
+  position: relative; 
   left: 0; 
   width: 100%; 
   height: 100%; 
   background-color: white;
-  /* transform: translateX(-50%); */
   z-index: 10000;
 }
 
-.modal-textbox .row {
-  height: 100vh;
+
+.modal-textbox .row:first-child {
+  position: relative;
+  /* height: 90px; */
 }
 
-.modal-textbox .row .col-md-6:first-child {
-  background-color: #fff;
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-position: center;
+.modal-textbox .row:last-child {
+  position: relative;
 }
-
-.modal-textbox .row .col-md-6 .col-md-12 {
-  /* position: relative; 
-  margin-top: 20%;  */
+.modal-textbox .row:first-child img{
+  display: block;
   position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
+  top: 2em;
+  right: 2em;
+  z-index: 11000;
+  
 }
-.modal-textbox .row .col-md-6 .col-md-12 {
-  /* position: relative; 
-  margin-top: 20%;  */
+
+/* .modal-textbox {
+  height: 100vh;
+} */
+
+
+
+@media(min-width: 767px) {
+  .modal-textbox .row:last-child .col-md-6:first-child {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto; 
+    height: 100vh;
+  }
+}
+
+@media(max-width: 767px) {
+  .modal-textbox .row:last-child .col-md-6:first-child {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto; 
+    height: 80vh;
+  }
+}
+
+
+
+@media(min-width: 767px) {
+  .modal-textbox .row:last-child .col-md-6 .col-md-12 {
+    position: absolute;
+    top: 50%;
+    right: 1.8em;
+    transform: translateY(-50%);
+  }
+}
+
+
+/*
+.modal-textbox .row:last-child .col-md-6 .col-md-12 {
   text-align: left;
 }
+
+
+.modal-textbox .row.closeModal {
+  display: block; 
+  color: #c6bfb2;  
+  width: 100%;
+  overflow: auto;
+  
+}
+
+.modal-textbox .row.closeModal img {
+  float: right;
+  
+} */
 
 .audition-faq .faq-text {
   border-right: 0 !important;
@@ -3719,14 +3767,6 @@ ul.pagination .active a {
   white-space: normal;
 }
 
-.closeModal {
-  display: inline-block; 
-  color: #c6bfb2; 
-  font-size: 6em; 
-  position: absolute; 
-  top: .2em; 
-  right: .7em;
-}
 
 .audition-faq h5{ 
   white-space: nowrap;

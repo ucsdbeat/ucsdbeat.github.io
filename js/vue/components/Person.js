@@ -20,12 +20,14 @@ const Person = Vue.component('person', {
             <h5><a href="#" v-on:click="openModal($event, picture)"> {{ first }} <br> {{ last }} </a></h5>
             <div v-bind:id="first + 'modal'" v-if="toggleModal">
                 <div class="modal-textbox">
+                    <div class="row closeModal">
+                            <img src=images/close.png v-on:click="closeModal()">
+                    </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 na">
                         
                         </div>
                         <div class="col-md-6">
-                            <img src=images/close.png v-on:click="closeModal()"  class="closeModal">
                             <div class="col-md-12">
                                 <h1>{{first}} {{last}}</h1>
                                 <h6>Major: {{major}}</h6>
@@ -55,6 +57,7 @@ const Person = Vue.component('person', {
             console.log(box.length)
             let navbar = document.querySelector('.navbar');
             navbar.style.zIndex = -1; 
+            console.log(box);
             let checkBox = setInterval(function() {
                 if (box.length > 2) {
                     b = box[1].querySelector('.modal-textbox .col-md-6');
