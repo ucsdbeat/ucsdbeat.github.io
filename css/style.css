@@ -3736,8 +3736,8 @@ ul.pagination .active a {
   .modal-textbox .row:last-child .col-md-6 .col-md-12 {
     position: absolute;
     top: 50%;
-    right: 1.8em;
-    transform: translateY(-50%);
+    right: 25%;
+    transform: translate(25%,-50%);
   }
 }
 
