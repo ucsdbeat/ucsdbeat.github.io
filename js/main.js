@@ -9,10 +9,10 @@ window.addEventListener('scroll', function(){
     if(window.scrollY > 50 && !links[0].classList.contains('nav-link-black')) {
         menu.style.marginBottom = "25px";
         loopThroughAndChangeFont(links, 'nav-link-black');
-        // changeBackgoundColor(nav, 'main-nav-white', 'main-nav-transparent');
+        changeBackgoundColor(nav, 'main-nav-white', 'main-nav-transparent');
     } else if (window.scrollY <= 50 && links[0].classList.contains('nav-link-black')){
         loopThroughAndChangeFont(links, 'nav-link-black', 'r');
-        // changeBackgoundColor(nav, 'main-nav-transparent', 'main-nav-white');
+        changeBackgoundColor(nav, 'main-nav-transparent', 'main-nav-white');
         menu.style.marginBottom = "0px";
     }
 })

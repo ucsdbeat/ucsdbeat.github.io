@@ -598,8 +598,6 @@ select.form-control:not([size]):not([multiple]) {
   color: white;
   height: 4.4rem;
   transition: all 0.7s;
-  
-
 }
 @media (min-width: 1024px) {
   /* maybe put something here */
@@ -607,6 +605,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .main-nav-transparent{
   background-color: transparent;
+  height: 4.4rem;
   transition: all 0.7s;
 }
 
