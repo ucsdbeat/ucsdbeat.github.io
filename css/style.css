@@ -3726,7 +3726,7 @@ ul.pagination .active a {
     background-position: 10% 10% 10% 10%;
     background-size: cover; 
     
-    height: 75vh;
+    height: 100vh;
   }
 }
 
@@ -3743,8 +3743,11 @@ ul.pagination .active a {
 
 @media(max-width: 767px) {
   .modal-textbox .row:last-child .col-md-6 .col-md-12 {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    /* top: 50%; */
+    bottom: 0;
+    padding: 25px;
+    background-color: #fff;
     /* right: 1.8em; */
   }
 }
