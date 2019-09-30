@@ -596,7 +596,7 @@ select.form-control:not([size]):not([multiple]) {
 .main-nav-white{
   background-color: #fff;
   color: white;
-  height: 4.4rem;
+  /* height: 4.4rem; */
   transition: all 0.7s;
 }
 @media (min-width: 1024px) {
