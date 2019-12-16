@@ -63,7 +63,7 @@ const Person = Vue.component('person', {
                     b = box[1].querySelector('.modal-textbox .col-md-6');
                     console.log("Exists!", b);
                     b.style.backgroundImage = "url('"+picture+"')";
-                    b.style.backgroundSize = "contain";
+                    // b.style.backgroundSize = "contain";
                    clearInterval(checkBox);
                 }
              }, 100);

@@ -3720,7 +3720,7 @@ ul.pagination .active a {
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto; 
+    background-size: 400px 600px; 
     height: 100vh;
   }
 }
