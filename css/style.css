@@ -3556,8 +3556,17 @@ ul.pagination .active a {
 
 /*# sourceMappingURL=maps/style.css.map */
 
+.theModal {
+  background-color: #fff;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
 
-#Finivamodal {
+/* #Finivamodal {
   background-color: #fff;
   position: fixed; 
   top: 0; 
@@ -3670,7 +3679,7 @@ ul.pagination .active a {
   width: 100%;
   height: 100%;
   z-index: 1000;
-}
+} */
 
 
 .modal-textbox {

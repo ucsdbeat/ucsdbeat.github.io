@@ -18,7 +18,7 @@ const Person = Vue.component('person', {
         </div>
         <div class="content text-center">
             <h5><a href="#" v-on:click="openModal($event, picture)"> {{ first }} <br> {{ last }} </a></h5>
-            <div v-bind:id="first + 'modal'" v-if="toggleModal">
+            <div class="theModal" v-if="toggleModal"> 
                 <div class="modal-textbox">
                     <div class="row closeModal">
                             <img src=images/close.png v-on:click="closeModal()">
@@ -63,6 +63,7 @@ const Person = Vue.component('person', {
                     b = box[1].querySelector('.modal-textbox .col-md-6');
                     console.log("Exists!", b);
                     b.style.backgroundImage = "url('"+picture+"')";
+                    b.style.backgroundSize = "contain";
                    clearInterval(checkBox);
                 }
              }, 100);
@@ -78,3 +79,5 @@ const Person = Vue.component('person', {
    });
 
 
+
+   /// v-bind:id="first + 'modal'"
