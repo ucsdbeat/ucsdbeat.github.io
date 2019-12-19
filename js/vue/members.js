@@ -219,6 +219,58 @@ const app = new Vue({
             ]
           },
           {
+            firstName : 'Deyshna',
+            lastName : 'Pai',
+            image: './images/members/dey.jpg',
+            partPos: 'Alto',
+            major: 'I DONT KNOW',
+            year: '1st',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/profile.php?id=100005170185143'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/katelynb19/?hl=en'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/andrewmokht/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+          {
+            firstName : 'Janae',
+            lastName : 'Gilford',
+            image: './images/members/jan.jpg',
+            partPos: 'Alto',
+            major: 'Music',
+            year: '1st',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/profile.php?id=100005170185143'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/katelynb19/?hl=en'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/andrewmokht/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+          {
             firstName : 'Sarah',
             lastName : 'Austin',
             image: './images/members/sar.jpg',
@@ -261,6 +313,58 @@ const app = new Vue({
               {
                 class: 'fa fa-instagram',
                 link: 'https://www.instagram.com/swiggityswagoo/?hl=en'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/andrewmokht/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+          {
+            firstName : 'Zachary',
+            lastName : 'Miranda',
+            image: './images/members/zac.jpg',
+            partPos: 'Tenor',
+            major: 'Neurobiology',
+            year: '1st',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/profile.php?id=100005170185143'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/katelynb19/?hl=en'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/andrewmokht/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+          {
+            firstName : 'Evan',
+            lastName : 'Clark',
+            image: './images/members/eva.jpg',
+            partPos: 'Baritone',
+            major: 'Chemistry Doctorate',
+            year: '1st (Ph.D.)',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/profile.php?id=100005170185143'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/katelynb19/?hl=en'
               },
               {
                 class: 'fa fa-linkedin',
