@@ -223,7 +223,7 @@ const app = new Vue({
             lastName : 'Pai',
             image: './images/members/dey.jpg',
             partPos: 'Alto',
-            major: 'I DONT KNOW',
+            major: 'Cognitive Science',
             year: '1st',
             socials: [
               {
