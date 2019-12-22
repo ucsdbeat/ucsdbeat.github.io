@@ -40,7 +40,7 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100013713079111'
+                link: 'https://www.facebook.com/andrewmokht'
               },
               {
                 class: 'fa fa-instagram',
@@ -75,7 +75,7 @@ const app = new Vue({
               },
               {
                 class: 'fa fa-tumblr',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: ''
               },
               {
                 class: 'fa fa-youtube',
@@ -102,7 +102,7 @@ const app = new Vue({
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: ''
               },
               {
                 class: 'fa fa-youtube',
@@ -125,11 +125,11 @@ const app = new Vue({
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
+                link: 'https://www.instagram.com/da1chiu/'
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: ''
               },
               {
                 class: 'fa fa-youtube',
@@ -152,11 +152,11 @@ const app = new Vue({
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
+                link: 'https://www.instagram.com/catherinekuh/'
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: ''
               },
               {
                 class: 'fa fa-youtube',
@@ -183,7 +183,7 @@ const app = new Vue({
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: ''
               },
               {
                 class: 'fa fa-youtube',
@@ -210,7 +210,7 @@ const app = new Vue({
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: ''
               },
               {
                 class: 'fa fa-youtube',
@@ -228,15 +228,15 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100005170185143'
+                link: 'https://www.facebook.com/profile.php?id=100010167968452'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/katelynb19/?hl=en'
+                link: 'https://www.instagram.com/dpai2019/'
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: ''
               },
               {
                 class: 'fa fa-youtube',
@@ -253,20 +253,20 @@ const app = new Vue({
             year: '1st',
             socials: [
               {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100005170185143'
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/channel/UCrhkjYQQc1iYyD22yfb-pEA'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/katelynb19/?hl=en'
+                link: 'https://www.instagram.com/janaenae188/'
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: ''
               },
               {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/user/theucsdbeat'
+                class: 'fa fa-facebook',
+                link: ''
               }
             ]
           },
@@ -334,15 +334,15 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100005170185143'
+                link: 'https://www.facebook.com/zacharymiranda.777'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/katelynb19/?hl=en'
+                link: 'https://www.instagram.com/zetazeldamir/'
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: ''
               },
               {
                 class: 'fa fa-youtube',
@@ -360,15 +360,15 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100005170185143'
+                link: 'https://www.facebook.com/evan.clarke.18'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/katelynb19/?hl=en'
+                link: 'https://www.instagram.com/musicemc/'
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: ''
               },
               {
                 class: 'fa fa-youtube',
@@ -395,7 +395,7 @@ const app = new Vue({
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/johnathan-chang/'
+                link: ''
               },
               {
                 class: 'fa fa-youtube',
@@ -422,7 +422,7 @@ const app = new Vue({
               },
               {
                 class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
+                link: 'https://www.linkedin.com/in/johnathan-chang/'
               },
               {
                 class: 'fa fa-youtube',

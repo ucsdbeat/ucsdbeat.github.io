@@ -10,9 +10,6 @@ const Person = Vue.component('person', {
                 <ul class="list-inline">
                     <li class="list-inline-item"><a v-bind:href="soli1"><i v-bind:class="socla1"></i></a></li>
                     <li class="list-inline-item"><a v-bind:href="soli2"><i v-bind:class="socla2"></i></a></li>
-                    <li class="list-inline-item"><a v-bind:href="soli3"><i v-bind:class="socla3"></i></a></li>
-                    <li class="list-inline-item"><a v-bind:href="soli4"><i v-bind:class="socla4"></i></a></li>
-
                 </ul>
             </div>
         </div>
