@@ -1,6 +1,8 @@
 # beatsite
 ## to-do:
+- majors
 - social medias
+- lower pic quality in members (see readme in images/members for more info but 400x600)
 - confirm everybodys name, picture, year and major (maybe add a fun fact?)
 - confirm/update socials
 - update normals pics in the site where possible
