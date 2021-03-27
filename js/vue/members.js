@@ -196,7 +196,7 @@ const app = new Vue({
             lastName : 'Sancianco',
             image: './images/members/ani.jpg',
             partPos: 'Soprano',
-            major: 'AHHHH',
+            major: 'Undeclared',
             year: '1st',
             link: './members/ani.html',
             socials: [
@@ -250,7 +250,7 @@ const app = new Vue({
             lastName : 'Yogaratnam',
             image: './images/members/ang.jpg',
             partPos: 'Alto',
-            major: 'AHHHH',
+            major: 'Psychology',
             year: '1st',
             link: './members/angie.html',
             socials: [
@@ -277,7 +277,7 @@ const app = new Vue({
             lastName : 'Dicen',
             image: './images/members/nic.jpg',
             partPos: 'Alto',
-            major: 'AHHHHH',
+            major: 'Economics',
             year: '1st',
             link: './members/nicole.html',
             socials: [
@@ -331,7 +331,7 @@ const app = new Vue({
             lastName : 'Chau',
             image: './images/members/jud.jpg',
             partPos: 'Baritone',
-            major: 'AHHHHH',
+            major: 'Psychology',
             year: '1st',
             link: './members/jude.html',
             socials: [
@@ -358,7 +358,7 @@ const app = new Vue({
             lastName : 'Srinivasan',
             image: './images/members/viv.jpg',
             partPos: 'Bass',
-            major: 'AHHHHHH',
+            major: 'Chemistry',
             year: '1st',
             link: './members/vivek.html',
             socials: [
