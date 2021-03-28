@@ -34,7 +34,7 @@ const app = new Vue({
             lastName : 'Sethuraman',
             image: './images/members/anu.jpg',
             partPos: 'Vice President - Alto',
-            major: 'Environmental Systems',
+            major: 'Urban Studies and Planning, Environmental Systems',
             year: '3rd',
             link: './members/anu.html',
             socials: [
@@ -169,7 +169,7 @@ const app = new Vue({
             lastName : 'Chang',
             image: './images/members/joh.jpg',
             partPos: 'Treasurer - Bass',
-            major: 'International Studies',
+            major: 'Real Estate and Development',
             year: '3rd',
             link: './members/johnny.html',
             socials: [
@@ -304,7 +304,7 @@ const app = new Vue({
             lastName : 'Douglas',
             image: './images/members/doug.jpg',
             partPos: 'Baritone/Vocal Percussion',
-            major: 'Cognative Science Spec. Machine Learning',
+            major: 'Cognitive Science Spec. Machine Learning',
             year: '3rd',
             link: './members/isaac.html',
             socials: [
