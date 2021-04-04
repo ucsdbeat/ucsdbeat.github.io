@@ -201,19 +201,19 @@ const app = new Vue({
             link: './members/ani.html',
             socials: [
               {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/profile.php?id=100005170185143'
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/mini_ariani/?hl=en'
               },
               {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/katelynb19/?hl=en'
+                class: 'fa fa-youtube',
+                link: 'https://youtube.com/channel/UCnggCE9A7udE1WOPPfpqWDw'
               },
               {
                 class: 'fa fa-linkedin',
                 link: ''
               },
               {
-                class: 'fa fa-youtube',
+                class: 'fa fa-facebook',
                 link: 'https://www.youtube.com/user/theucsdbeat'
               }
             ]
@@ -299,6 +299,36 @@ const app = new Vue({
               }
             ]
           },
+
+          {
+            firstName : 'Zachary',
+            lastName : 'Miranda',
+            image: './images/members/zac.jpg',
+            partPos: 'Tenor',
+            major: 'Neurobiology',
+            year: '2nd',
+            link: './members/zac.html',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/zacharymiranda.777'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/zetazeldamir/'
+              },
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/zacharymiranda.777'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/zetazeldamir/'
+              }
+            ]
+          },
+
+
           {
             firstName : 'Isaac',
             lastName : 'Douglas',
@@ -310,11 +340,11 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/zacharymiranda.777'
+                link: 'https://www.facebook.com/isaac.douglas.330/'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/zetazeldamir/'
+                link: 'https://www.instagram.com/isaac_douglas/'
               },
               {
                 class: 'fa fa-linkedin',
@@ -336,19 +366,19 @@ const app = new Vue({
             link: './members/jude.html',
             socials: [
               {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/evan.clarke.18'
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/judechau/'
               },
               {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/musicemc/'
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
               },
               {
                 class: 'fa fa-linkedin',
                 link: ''
               },
               {
-                class: 'fa fa-youtube',
+                class: 'fa fa-facebook',
                 link: 'https://www.youtube.com/user/theucsdbeat'
               }
             ]
@@ -364,11 +394,11 @@ const app = new Vue({
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/jae.lee.3110567'
+                link: 'https://www.facebook.com/Srinibeeny/'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/jaelee0322/?hl=en'
+                link: 'https://www.instagram.com/srinibeeny/?hl=en'
               },
               {
                 class: 'fa fa-linkedin',

@@ -1,7 +1,8 @@
 # beatsite
 ## to-do:
 - [X] majors
-- [ ] social medias
+- [X] social medias
+    - [ ] Finish SM
 - [ ] lower pic quality in members (see readme in images/members for more info but 400x600)
 - [ ] confirm everybodys name, picture, year and major (maybe add a fun fact?)
 - [ ] confirm/update socials
