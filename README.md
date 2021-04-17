@@ -7,12 +7,13 @@
 - [ ] confirm everybodys name, picture, year and major (maybe add a fun fact?)
 - [ ] confirm/update socials
 - [ ] update normals pics in the site where possible
+- [ ] Maybe introduce test branch (with its regular github pages link to show off difference online, then merge!)
 - [ ] finish performances vue app
 - [ ] maybe make carousel little smaller on front page
 - [ ] add pos/part to modal (split by ' - ', if two then add position field)
 - [ ] add social media buttons (+fun fact) to modal!
 - [ ] add left and right to modal?
-- [ ] Maybe introduce test branch (with its regular github pages link to show off difference online, then merge!)
+
 
 <br>
 
