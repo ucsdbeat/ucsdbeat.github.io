@@ -13,6 +13,7 @@
 - [ ] add pos/part to modal (split by ' - ', if two then add position field)
 - [ ] add social media buttons (+fun fact) to modal!
 - [ ] add left and right to modal?
+- [ ] 404 page
 
 
 <br>
