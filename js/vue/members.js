@@ -7,7 +7,7 @@ const app = new Vue({
             lastName : 'Carl',
             image: './images/members/mika.jpg',
             partPos: 'President - Soprano',
-            major: 'Earth Science',
+            major: 'Marine Biology',
             year: '3rd',
             link: './members/mika.html',
             socials: [
