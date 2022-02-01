@@ -51,14 +51,14 @@ const Person = Vue.component('person', {
         openModal: function(event, picture) {
             event.preventDefault();
             let box = event.target.parentNode.parentNode.children;
-            console.log(box.length)
+
             let navbar = document.querySelector('.navbar');
             navbar.style.zIndex = -1; 
-            console.log(box);
+
             let checkBox = setInterval(function() {
                 if (box.length > 2) {
                     b = box[1].querySelector('.modal-textbox .col-md-6');
-                    console.log("Exists!", b);
+
                     b.style.backgroundImage = "url('"+picture+"')";
                     // b.style.backgroundSize = "contain";
                    clearInterval(checkBox);

@@ -11,8 +11,6 @@
   <!-- PLUGINS CSS STYLE -->
   <!-- Bootstrap -->
   <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Themefisher Font -->  
-  <link href="plugins/themefisher-font/style.css" rel="stylesheet">
   <!-- Font Awesome -->
   <link href="plugins/font-awsome/css/font-awesome.min.css" rel="stylesheet">
   <!-- Magnific Popup -->
@@ -118,6 +116,15 @@
 
 
 		<div class="row mt-30" id="app">
+
+			<performance v-for="show in shows" 
+				v-bind:title="show.title"
+				v-bind:location="show.location"
+				v-bind:link="show.link"
+				v-bind:dateday="show.day"
+				v-bind:datemonth="show.month"
+				v-bind:picture="show.picture"></performance>
+<!--==== OLD POSTS
 			
 			<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
 				<div class="blog-post">
@@ -202,26 +209,25 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
-						<div class="blog-post">
-							<div class="post-thumb">
-								<a href="https://www.youtube.com/watch?v=8sNmYMaIbjc">
-									<img src="images/performances/dwbat.jpg" alt="post-image" class="img-fluid">
-								</a>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
+					<div class="blog-post">
+						<div class="post-thumb">
+							<a href="https://www.youtube.com/watch?v=8sNmYMaIbjc">
+								<img src="images/performances/dwbat.jpg" alt="post-image" class="img-fluid">
+							</a>
+						</div>
+						<div class="post-content">
+							<div class="date">
+								<h4>27<span> Mar</span></h4>
 							</div>
-							<div class="post-content">
-								<div class="date">
-									<h4>27<span> Mar</span></h4>
-								</div>
-								<div class="post-title">
-									<h2><a href="https://www.youtube.com/watch?v=8sNmYMaIbjc">Hey There Delilah<br><br> <span>2019 Spring Concert</span></a></h2>
-								</div>
+							<div class="post-title">
+								<h2><a href="https://www.youtube.com/watch?v=8sNmYMaIbjc">Hey There Delilah<br><br> <span>2019 Spring Concert</span></a></h2>
 							</div>
 						</div>
 					</div>
-					
-					<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
+			</div>		
+			<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
 							<div class="blog-post">
 								<div class="post-thumb">
 									<a href="https://www.youtube.com/watch?v=G-4d5xbhZ4A">
@@ -237,41 +243,42 @@
 									</div>
 								</div>
 							</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
+					<div class="blog-post">
+						<div class="post-thumb">
+							<a href="https://www.youtube.com/watch?v=PTSHFRfFuRY">
+								<img src="images/performances/tt.jpg" alt="post-image" class="img-fluid">
+							</a>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
-								<div class="blog-post">
-									<div class="post-thumb">
-										<a href="https://www.youtube.com/watch?v=PTSHFRfFuRY">
-											<img src="images/performances/tt.jpg" alt="post-image" class="img-fluid">
-										</a>
-									</div>
-									<div class="post-content">
-										<div class="date">
-											<h4>27<span> Mar</span></h4>
-										</div>
-										<div class="post-title">
-											<h2><a href="https://www.youtube.com/watch?v=PTSHFRfFuRY">Turning Tables <br><br> <span>2019 Spring Concert</span></a></h2>
-										</div>
-									</div>
+						<div class="post-content">
+							<div class="date">
+								<h4>27<span> Mar</span></h4>
+							</div>
+							<div class="post-title">
+								<h2><a href="https://www.youtube.com/watch?v=PTSHFRfFuRY">Turning Tables <br><br> <span>2019 Spring Concert</span></a></h2>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
+						<div class="blog-post">
+							<div class="post-thumb">
+								<a href="https://www.youtube.com/watch?v=tm9LhR8NanY">
+									<img src="images/performances/utlu.jpg" alt="post-image" class="img-fluid">
+								</a>
+							</div>
+							<div class="post-content">
+								<div class="date">
+									<h4>27<span> Mar</span></h4>
+								</div>
+								<div class="post-title">
+									<h2><a href="https://www.youtube.com/watch?v=tm9LhR8NanY">Used to Love U++ <br><br> <span>2019 Spring Concert</span></a></h2>
 								</div>
 							</div>
-							<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
-									<div class="blog-post">
-										<div class="post-thumb">
-											<a href="https://www.youtube.com/watch?v=tm9LhR8NanY">
-												<img src="images/performances/utlu.jpg" alt="post-image" class="img-fluid">
-											</a>
-										</div>
-										<div class="post-content">
-											<div class="date">
-												<h4>27<span> Mar</span></h4>
-											</div>
-											<div class="post-title">
-												<h2><a href="https://www.youtube.com/watch?v=tm9LhR8NanY">Used to Love U++ <br><br> <span>2019 Spring Concert</span></a></h2>
-											</div>
-										</div>
-									</div>
-								</div>
+						</div>
+			</div>
+		====-->
 		</div>
 	</div>
 </section>
@@ -322,28 +329,31 @@
 
 
 
-  <!-- JAVASCRIPTS -->
-  <!-- jQuey -->
-  <script src="plugins/jquery/jquery.js"></script>
-  <!-- Popper js -->
-  <script src="plugins/popper/popper.min.js"></script>
-  <!-- Bootstrap 4 -->
-  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-  <!-- Smooth Scroll -->
-  <script src="plugins/smoothscroll/SmoothScroll.min.js"></script>  
-  <!-- Isotope -->
-  <script src="plugins/isotope/mixitup.min.js"></script>  
-  <!-- Magnific Popup -->
-  <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <!-- Slick Carousel -->
-  <script src="plugins/slick/slick.min.js"></script>  
-  <!-- SyoTimer -->
-  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
-  <!-- Custom Script -->
-  <script src="js/vue/components/performance/app.js"></script>
-  <script src="js/custom.js"></script>
-  <script src="js/main.js"></script>
+<!-- JAVASCRIPTS -->
+<!-- jQuey -->
+<script src="plugins/jquery/jquery.js"></script>
+<!-- Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
+<!-- Popper js -->
+<script src="plugins/popper/popper.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- Smooth Scroll -->
+<script src="plugins/smoothscroll/SmoothScroll.min.js"></script>  
+<!-- Isotope -->
+<script src="plugins/isotope/mixitup.min.js"></script>  
+<!-- Magnific Popup -->
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Slick Carousel -->
+<script src="plugins/slick/slick.min.js"></script>  
+<!-- SyoTimer -->
+<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+
+<!-- People Component -->
+<script src="js/vue/components/Performance.js"></script>
+<!-- Members Data -->
+<script src="js/vue/shows.js"></script>
 </body>
 
 </html>
