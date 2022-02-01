@@ -5,9 +5,9 @@ const app = new Vue({
           {
             title: "ICCA 2020 Set",
             location: "ICCA SW Quarterfinals 2020",
-            link: "https://www.youtube.com/watch?v=SH228rEfS_w",
-            day: "27",
-            month: "Mar",
+            link: "https://www.youtube.com/watch?v=o51HePi2X2k",
+            day: "21",
+            month: "Feb",
             picture: "./images/performances/icca2020.jpg"
           },
           {

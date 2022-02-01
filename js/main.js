@@ -1,5 +1,3 @@
-console.log("THIS IS MAIN")
-
 let nav = document.querySelector("nav.main-nav");
 let navLinks = nav.querySelectorAll('.nav-item .nav-link');
 let menu = document.querySelector('button.hamburger');
