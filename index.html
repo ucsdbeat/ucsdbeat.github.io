@@ -125,7 +125,7 @@
 						</p>
 					</div>
 					<div class="description-two">
-						<p>{{ about_subtext }}</p>
+						<p>Based in La Jolla, The Beat at UCSD works hard to play hard. As one of many a co-ed a cappella groups...</p>
 					</div>
 					<ul class="list-inline">
 
@@ -200,6 +200,16 @@
 		</div>
 
 		<div class="row">
+			<performance v-for="show in previewShows" 
+			v-bind:title="show.title"
+			v-bind:location="show.location"
+			v-bind:link="show.link"
+			v-bind:dateday="show.day"
+			v-bind:datemonth="show.month"
+			v-bind:picture="show.picture"></performance>
+
+
+			<!--
 				<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
 						<div class="blog-post">
 							<div class="post-thumb">
@@ -216,42 +226,42 @@
 								</div>
 							</div>
 						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
-							<div class="blog-post">
-								<div class="post-thumb">
-									<a href="https://www.youtube.com/watch?v=SH228rEfS_w">
-										<img src="images/performances/giaw.jpg" alt="post-image" class="img-fluid">
-									</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
+						<div class="blog-post">
+							<div class="post-thumb">
+								<a href="https://www.youtube.com/watch?v=SH228rEfS_w">
+									<img src="images/performances/giaw.jpg" alt="post-image" class="img-fluid">
+								</a>
+							</div>
+							<div class="post-content">
+								<div class="date">
+									<h4>27<span> Mar</span></h4>
 								</div>
-								<div class="post-content">
-									<div class="date">
-										<h4>27<span> Mar</span></h4>
-									</div>
-									<div class="post-title">
-										<h2><a href="https://www.youtube.com/watch?v=SH228rEfS_w">God Is A Woman <br><br> <span>2019 Spring Concert</span></a></h2>
-									</div>
+								<div class="post-title">
+									<h2><a href="https://www.youtube.com/watch?v=SH228rEfS_w">God Is A Woman <br><br> <span>2019 Spring Concert</span></a></h2>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
-								<div class="blog-post">
-									<div class="post-thumb">
-										<a href="https://www.youtube.com/watch?v=8sNmYMaIbjc">
-											<img src="images/performances/dwbat.jpg" alt="post-image" class="img-fluid">
-										</a>
-									</div>
-									<div class="post-content">
-										<div class="date">
-											<h4>27<span> Mar</span></h4>
-										</div>
-										<div class="post-title">
-											<h2><a href="https://www.youtube.com/watch?v=8sNmYMaIbjc">Hey There Delilah<br><br> <span>2019 Spring Concert</span></a></h2>
-										</div>
-									</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
+						<div class="blog-post">
+							<div class="post-thumb">
+								<a href="https://www.youtube.com/watch?v=8sNmYMaIbjc">
+									<img src="images/performances/dwbat.jpg" alt="post-image" class="img-fluid">
+								</a>
+							</div>
+							<div class="post-content">
+								<div class="date">
+									<h4>27<span> Mar</span></h4>
+								</div>
+								<div class="post-title">
+									<h2><a href="https://www.youtube.com/watch?v=8sNmYMaIbjc">Hey There Delilah<br><br> <span>2019 Spring Concert</span></a></h2>
 								</div>
 							</div>
+						</div>
+				</div>
+				-->
 		</div>
 	</div>
 </section>
@@ -322,10 +332,13 @@
   <!-- SyoTimer -->
   <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
   <!-- Custom Script -->
-  <script src="js/vue/home.js"></script>
-  <!-- Performances Data -->
-  <!-- <script src="js/vue/performances.js"></script> -->
+
   <script src="js/main.js"></script>
+
+  <!-- People Component -->
+	<script src="js/vue/components/Performance.js"></script>
+	<!-- Members Data -->
+	<script src="js/vue/shows.js"></script>
 </body>
 
 </html>

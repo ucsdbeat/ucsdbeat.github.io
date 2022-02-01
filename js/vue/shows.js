@@ -4,7 +4,7 @@ const app = new Vue({
         shows: [
           {
             title: "ICCA 2020 Set",
-            location: "ICCA Southwest Quarterfinals 2020",
+            location: "ICCA SW Quarterfinals 2020",
             link: "https://www.youtube.com/watch?v=SH228rEfS_w",
             day: "27",
             month: "Mar",
@@ -52,5 +52,10 @@ const app = new Vue({
           }
 
       ]
+    }, 
+    computed: {
+      previewShows() {
+        return this.shows.slice(0, 3);
+      }
     }
   });
