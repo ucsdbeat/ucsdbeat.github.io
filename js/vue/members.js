@@ -407,8 +407,16 @@ const app = new Vue({
               {
                 class: 'fa fa-youtube',
                 link: 'https://www.youtube.com/user/theucsdbeat'
-              },
-          {
+              }          
+    ]
+    },
+            
+            
+            
+            
+            
+            
+     {
             firstName : 'Michelle',
             lastName : 'Escudero',
             image: './images/members/mich.jpg',
@@ -435,11 +443,4 @@ const app = new Vue({
               }
             ]
           }
-          
-
-                
-                
-                
-    ]
-    }
   });
