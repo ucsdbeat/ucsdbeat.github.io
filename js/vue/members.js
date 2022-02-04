@@ -407,10 +407,39 @@ const app = new Vue({
               {
                 class: 'fa fa-youtube',
                 link: 'https://www.youtube.com/user/theucsdbeat'
+              },
+          {
+            firstName : 'Michelle',
+            lastName : 'Escudero',
+            image: './images/members/mich.jpg',
+            partPos: 'Soprano',
+            major: 'Cognitive Science Spec. Design & Interaction',
+            year: '1st',
+            link: './members/michelle.html',
+            socials: [
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/michelleescudero_/'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/mich-esc/'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/mich-esc/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
               }
             ]
           }
+          
 
+                
+                
+                
     ]
     }
   });
