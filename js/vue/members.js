@@ -1,6 +1,11 @@
 const app = new Vue({
     el: '#app',
     data: {
+
+
+
+      // MEMBERS GO BELOW HERE
+
         members: [
           {
             firstName : 'Mika',
@@ -29,6 +34,7 @@ const app = new Vue({
               }
             ]
           },
+          
           {
             firstName : 'Anu',
             lastName : 'Sethuraman',
@@ -56,6 +62,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'Andrew',
             lastName : 'Mokhtarzadeh',
@@ -83,6 +90,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'Jacob',
             lastName : 'Benson',
@@ -110,6 +118,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'Catherine',
             lastName : 'Kuh',
@@ -137,6 +146,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'David',
             lastName : 'Chiu',
@@ -164,6 +174,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'Johnathan',
             lastName : 'Chang',
@@ -191,6 +202,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'Ani',
             lastName : 'Sancianco',
@@ -218,6 +230,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'Janae',
             lastName : 'Gilford',
@@ -245,6 +258,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'Angie',
             lastName : 'Yogaratnam',
@@ -272,6 +286,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'Nicole',
             lastName : 'Dicen',
@@ -328,7 +343,6 @@ const app = new Vue({
             ]
           },
 
-
           {
             firstName : 'Isaac',
             lastName : 'Douglas',
@@ -356,6 +370,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'Jude',
             lastName : 'Chau',
@@ -383,6 +398,7 @@ const app = new Vue({
               }
             ]
           },
+
           {
             firstName : 'Vivek',
             lastName : 'Srinivasan',
@@ -411,6 +427,12 @@ const app = new Vue({
             ]
           }
 
+
+
     ]
-    }
-  });
+  
+  
+  // MEMBERS GO ABOVE HERE
+
+  
+  }});
