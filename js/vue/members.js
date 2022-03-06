@@ -3,45 +3,18 @@ const app = new Vue({
     data: {
 
 
+// DO NOT EDIT ABOVE
 
-      // MEMBERS GO BELOW HERE
 
         members: [
-          {
-            firstName : 'Mika',
-            lastName : 'Carl',
-            image: './images/members/mika.jpg',
-            partPos: 'President - Soprano',
-            major: 'Marine Biology',
-            year: '3rd',
-            link: './members/mika.html',
-            socials: [
-              {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/mika.carl.37'
-              },
-              {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/mika_carl/?hl=en'
-              },
-              {
-                class: 'fa fa-linkedin',
-                link: ''
-              },
-              {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/user/theucsdbeat'
-              }
-            ]
-          },
-          
+        // MEMBERS GO BELOW HERE
           {
             firstName : 'Anu',
             lastName : 'Sethuraman',
             image: './images/members/anu.jpg',
-            partPos: 'Vice President - Alto',
+            partPos: 'President - Alto',
             major: 'Urban Studies and Planning, Environmental Systems',
-            year: '3rd',
+            year: '4th',
             link: './members/anu.html',
             socials: [
               {
@@ -64,249 +37,25 @@ const app = new Vue({
           },
 
           {
-            firstName : 'Andrew',
-            lastName : 'Mokhtarzadeh',
-            image: './images/members/and.jpg',
-            partPos: 'Music Director - Baritone',
-            major: 'Data Science',
-            year: '3rd',
-            link: './members/andrew.html',
-            socials: [
-              {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/andrewmokht'
-              },
-              {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
-              },
-              {
-                class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
-              },
-              {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/user/theucsdbeat'
-              }
-            ]
-          },
-
-          {
-            firstName : 'Jacob',
-            lastName : 'Benson',
-            image: './images/members/jac.jpg',
-            partPos: 'Music Director - Tenor',
-            major: 'Data Science',
-            year: '4th',
-            link: './members/jacob.html',
-            socials: [
-              {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/jacob.benson.90857'
-              },
-              {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/jenbacobson/?hl=en'
-              },
-              {
-                class: 'fa fa-tumblr',
-                link: ''
-              },
-              {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/user/theucsdbeat'
-              }
-            ]
-          },
-
-          {
-            firstName : 'Catherine',
-            lastName : 'Kuh',
-            image: './images/members/cat.jpg',
-            partPos: 'Public Relations - Alto',
-            major: 'Psychology',
-            year: '3rd',
-            link: './members/cat.html',
-            socials: [
-              {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/catherine.kuh'
-              },
-              {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/catherinekuh/'
-              },
-              {
-                class: 'fa fa-linkedin',
-                link: ''
-              },
-              {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/user/theucsdbeat'
-              }
-            ]
-          },
-
-          {
-            firstName : 'David',
-            lastName : 'Chiu',
-            image: './images/members/dav.jpg',
-            partPos: 'Public Relations - Bass',
-            major: 'Cognitive Science - Design & Interaction',
-            year: '4th',
-            link: './members/david.html',
-            socials: [
-              {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/david.chiu.313371'
-              },
-              {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/da1chiu/'
-              },
-              {
-                class: 'fa fa-linkedin',
-                link: ''
-              },
-              {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/user/theucsdbeat'
-              }
-            ]
-          },
-
-          {
-            firstName : 'Johnathan',
-            lastName : 'Chang',
-            image: './images/members/joh.jpg',
-            partPos: 'Treasurer - Bass',
-            major: 'Real Estate and Development',
-            year: '3rd',
-            link: './members/johnny.html',
-            socials: [
-              {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/johnathan.chang.7'
-              },
-              {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/johnathanchang/?hl=en'
-              },
-              {
-                class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/johnathan-chang/'
-              },
-              {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/user/theucsdbeat'
-              }
-            ]
-          },
-
-          {
-            firstName : 'Ani',
-            lastName : 'Sancianco',
-            image: './images/members/ani.jpg',
-            partPos: 'Soprano',
-            major: 'Undeclared',
-            year: '1st',
-            link: './members/ani.html',
-            socials: [
-              {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/mini_ariani/?hl=en'
-              },
-              {
-                class: 'fa fa-youtube',
-                link: 'https://youtube.com/channel/UCnggCE9A7udE1WOPPfpqWDw'
-              },
-              {
-                class: 'fa fa-linkedin',
-                link: ''
-              },
-              {
-                class: 'fa fa-facebook',
-                link: 'https://www.youtube.com/user/theucsdbeat'
-              }
-            ]
-          },
-
-          {
-            firstName : 'Janae',
-            lastName : 'Gilford',
-            image: './images/members/jan.jpg',
-            partPos: 'Soprano',
-            major: 'Music',
+            firstName : 'Vivek',
+            lastName : 'Srinivasan',
+            image: './images/members/viv.jpg',
+            partPos: 'External Vice President - Bass',
+            major: 'Chemistry',
             year: '2nd',
-            link: './members/janae.html',
+            link: './members/vivek.html',
             socials: [
               {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/channel/UCrhkjYQQc1iYyD22yfb-pEA'
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/Srinibeeny/'
               },
               {
                 class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/janaenae188/'
+                link: 'https://www.instagram.com/srinibeeny/?hl=en'
               },
               {
                 class: 'fa fa-linkedin',
                 link: ''
-              },
-              {
-                class: 'fa fa-facebook',
-                link: ''
-              }
-            ]
-          },
-
-          {
-            firstName : 'Angie',
-            lastName : 'Yogaratnam',
-            image: './images/members/ang.jpg',
-            partPos: 'Alto',
-            major: 'Psychology',
-            year: '1st',
-            link: './members/angie.html',
-            socials: [
-              {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/saansuau'
-              },
-              {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
-              },
-              {
-                class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
-              },
-              {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/user/theucsdbeat'
-              }
-            ]
-          },
-
-          {
-            firstName : 'Nicole',
-            lastName : 'Dicen',
-            image: './images/members/nic.jpg',
-            partPos: 'Alto',
-            major: 'Economics',
-            year: '1st',
-            link: './members/nicole.html',
-            socials: [
-              {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/saansuau'
-              },
-              {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
-              },
-              {
-                class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
               },
               {
                 class: 'fa fa-youtube',
@@ -319,9 +68,9 @@ const app = new Vue({
             firstName : 'Zachary',
             lastName : 'Miranda',
             image: './images/members/zac.jpg',
-            partPos: 'Tenor',
+            partPos: 'Internal Vice President - Tenor',
             major: 'Neurobiology',
-            year: '2nd',
+            year: '3rd',
             link: './members/zac.html',
             socials: [
               {
@@ -344,29 +93,29 @@ const app = new Vue({
           },
 
           {
-            firstName : 'Isaac',
-            lastName : 'Douglas',
-            image: './images/members/doug.jpg',
-            partPos: 'Baritone/Vocal Percussion',
-            major: 'Cognitive Science Spec. Machine Learning',
+            firstName : 'Janae',
+            lastName : 'Gilford',
+            image: './images/members/jan.jpg',
+            partPos: 'Music Director - Soprano',
+            major: 'Business',
             year: '3rd',
-            link: './members/isaac.html',
+            link: './members/janae.html',
             socials: [
               {
-                class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/isaac.douglas.330/'
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/janaenae188/'
               },
               {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/isaac_douglas/'
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/channel/UCrhkjYQQc1iYyD22yfb-pEA'
               },
               {
                 class: 'fa fa-linkedin',
                 link: ''
               },
               {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/user/theucsdbeat'
+                class: 'fa fa-facebook',
+                link: ''
               }
             ]
           },
@@ -375,9 +124,9 @@ const app = new Vue({
             firstName : 'Jude',
             lastName : 'Chau',
             image: './images/members/jud.jpg',
-            partPos: 'Baritone',
-            major: 'Psychology',
-            year: '1st',
+            partPos: 'Music Director - Baritone',
+            major: 'Chemistry',
+            year: '2nd',
             link: './members/jude.html',
             socials: [
               {
@@ -400,25 +149,333 @@ const app = new Vue({
           },
 
           {
-            firstName : 'Vivek',
-            lastName : 'Srinivasan',
-            image: './images/members/viv.jpg',
-            partPos: 'Bass',
-            major: 'Chemistry',
-            year: '1st',
-            link: './members/vivek.html',
+            firstName : 'Nicole',
+            lastName : 'Dicen',
+            image: './images/members/nic.jpg',
+            partPos: 'Music Director - Tenor',
+            major: 'Psychology',
+            year: '4th',
+            link: './members/nicole.html',
             socials: [
               {
                 class: 'fa fa-facebook',
-                link: 'https://www.facebook.com/Srinibeeny/'
+                link: 'https://www.facebook.com/nck0le'
               },
               {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/srinibeeny/?hl=en'
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
               },
               {
                 class: 'fa fa-linkedin',
                 link: ''
+              },
+              {
+                class: 'fa fa-youtube',
+                link: ''
+              }
+            ]
+          },
+
+          {
+            firstName : 'Ani',
+            lastName : 'Sancianco',
+            image: './images/members/ani.jpg',
+            partPos: 'Public Relations - Soprano',
+            major: 'Visual Arts (Media)',
+            year: '2nd',
+            link: './members/ani.html',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/patty.mode.7'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/mini_ariani/?hl=en'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: ''
+              },
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/patty.mode.7'
+              }
+            ]
+          },
+
+          {
+            firstName : 'Michelle',
+            lastName : 'Escudero',
+            image: './images/members/mich.jpg',
+            partPos: 'Public Relations - Soprano',
+            major: 'Cognitive Science Spec. Design & Interaction',
+            year: '1st',
+            link: './members/michelle.html',
+            socials: [
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/mich-esc/'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/michelleescudero_/'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/mich-esc/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+
+          {
+            firstName : 'Johnathan',
+            lastName : 'Chang',
+            image: './images/members/joh.jpg',
+            partPos: 'Treasurer - Bass',
+            major: 'Real Estate and Development',
+            year: '4th',
+            link: './members/johnny.html',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/johnathan.chang.7'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/johnathanchang/?hl=en'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+
+          {
+            firstName : 'Ximena',
+            lastName : 'Gonzalez',
+            image: './images/members/xim.jpg',
+            partPos: 'Soprano',
+            major: 'General Biology',
+            year: '3rd',
+            link: './members/ximena.html',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/profile.php?id=100045505608148'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/xi.mena_gonzalez/'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+
+          {
+            firstName : 'Angie',
+            lastName : 'Yogaratnam',
+            image: './images/members/ang.jpg',
+            partPos: 'Alto',
+            major: 'Psychology',
+            year: '2nd',
+            link: './members/angie.html',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/angie.yogaratnam.14'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/angieyogaratnam/'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+
+          {
+            firstName : 'Catherine',
+            lastName : 'Kuh',
+            image: './images/members/cat.jpg',
+            partPos: 'Alto',
+            major: 'Cognitive Psychology',
+            year: '4nd',
+            link: './members/catherine.html',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/catherine.kuh'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/catherinekuh/'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+
+          {
+            firstName : 'Katrina',
+            lastName : 'Garay',
+            image: './images/members/kat.jpg',
+            partPos: 'Alto',
+            major: 'Chemical Engineering',
+            year: '3rd',
+            link: './members/katrina.html',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/katrina.garay.1'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/katrinagaray/'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+
+          {
+            firstName : 'Kaye',
+            lastName : 'Han',
+            image: './images/members/kay.jpg',
+            partPos: 'Alto',
+            major: 'Clinical Psychology',
+            year: '1st',
+            link: './members/kaye.html',
+            socials: [
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/Kaye_han26/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+
+          {
+            firstName : 'Macky',
+            lastName : 'Ito',
+            image: './images/members/mac.jpg',
+            partPos: 'Tenor',
+            major: 'Real Estate and Development',
+            year: '2nd',
+            link: './members/katrina.html',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/macky.ito.9'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/mackyito/'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+
+          {
+            firstName : 'Andrew',
+            lastName : 'Mokhtarzadeh',
+            image: './images/members/and.jpg',
+            partPos: 'Baritone',
+            major: 'Data Science',
+            year: '4th',
+            link: './members/andrew.html',
+            socials: [
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/andrewmokht/'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/andrewmokht/'
+              },
+              {
+                class: 'fa fa-youtube',
+                link: 'https://www.youtube.com/user/theucsdbeat'
+              }
+            ]
+          },
+
+          {
+            firstName : 'Jordan',
+            lastName : 'Lin',
+            image: './images/members/jor.jpg',
+            partPos: 'Baritone',
+            major: 'Molecular and Cell Biology',
+            year: '2nd',
+            link: './members/jordan.html',
+            socials: [
+              {
+                class: 'fa fa-facebook',
+                link: 'https://www.facebook.com/jordanlin0420'
+              },
+              {
+                class: 'fa fa-instagram',
+                link: 'https://www.instagram.com/jor_420/?hl=en'
+              },
+              {
+                class: 'fa fa-linkedin',
+                link: 'https://www.linkedin.com/in/'
               },
               {
                 class: 'fa fa-youtube',
@@ -427,12 +484,11 @@ const app = new Vue({
             ]
           }
 
-
-
-    ]
+        // MEMBERS GO ABOVE HERE
+        ]
   
   
-  // MEMBERS GO ABOVE HERE
+  // DO NOT EDIT BELOW 
 
   
   }});
