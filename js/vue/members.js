@@ -429,34 +429,6 @@ const app = new Vue({
           },
 
           {
-            firstName : 'Andrew',
-            lastName : 'Mokhtarzadeh',
-            image: './images/members/and.jpg',
-            partPos: 'Baritone',
-            major: 'Data Science',
-            year: '4th',
-            link: './members/andrew.html',
-            socials: [
-              {
-                class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
-              },
-              {
-                class: 'fa fa-instagram',
-                link: 'https://www.instagram.com/monkeytarzan/?hl=en'
-              },
-              {
-                class: 'fa fa-linkedin',
-                link: 'https://www.linkedin.com/in/andrewmokht/'
-              },
-              {
-                class: 'fa fa-youtube',
-                link: 'https://www.youtube.com/user/theucsdbeat'
-              }
-            ]
-          },
-
-          {
             firstName : 'Jordan',
             lastName : 'Lin',
             image: './images/members/jor.jpg',
